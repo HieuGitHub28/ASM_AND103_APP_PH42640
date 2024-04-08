@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:padding="13dp"
+    android:background="@drawable/btn"
+    android:backgroundTint="#D0DFE1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập thông tin sinh viên"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMaSV"
+        android:hint="Mã SV"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:background="@drawable/input"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNameSV"
+        android:hint="Tên SV"
+        android:padding="10dp"
+        android:background="@drawable/input"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtDiemTB"
+        android:hint="Điểm trung bình"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/input"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAvatar"
+        android:hint="Link ảnh"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/input"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imgAvatarSV"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/common_full_open_on_phone"
+        android:layout_gravity="center"
+        android:background="@drawable/btn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnChonAnh"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn"
+            android:backgroundTint="#43B3B3"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:text="Chọn ảnh"/>
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn"
+            android:backgroundTint="#4FA2E4"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:text="Save"/>
+    </LinearLayout>
+
+</LinearLayout>

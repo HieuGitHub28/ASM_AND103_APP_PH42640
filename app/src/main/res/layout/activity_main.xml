@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_vertical"
+    tools:context=".DangNhap">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký tài khoản"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txtuserdk"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nhập username"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:background="@drawable/trongsuot"
+        android:padding="14dp"
+        />
+
+    <EditText
+        android:id="@+id/txtpassdk"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nhập password"
+        android:inputType="textPassword"
+        android:background="@drawable/trongsuot"
+        android:padding="14dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btndangnhapdk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dangnhapdk"
+        android:text="ĐĂNG KÝ"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:layout_marginTop="25dp"
+        />
+
+</LinearLayout>
